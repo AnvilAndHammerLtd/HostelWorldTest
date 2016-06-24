@@ -1,0 +1,34 @@
+<resources>
+    <style name="Text">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Bold.Item_properties_brief_details"/>
+
+    <style name="Text.Bold.Item_properties_brief_details.Label">
+        <item name="android:textSize">@dimen/text_size_medium_large</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.Bold.Item_properties_brief_details.Value">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+
+    <style name="Text.Bold.Property_full_details"/>
+
+    <style name="Text.Bold.Property_full_details.Label">
+        <item name="android:textSize">@dimen/text_size_medium_large</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="Text.Bold.Property_full_details.Value">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+</resources>

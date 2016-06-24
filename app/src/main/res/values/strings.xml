@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HostelWorld</string>
+    <string name="get_properties_in_city_request_failure">Failed to get properties</string>
+    <string name="get_property_full_full_details_request">Failed to retrieve property details</string>
+
+    <string name="name">Name:</string>
+    <string name="type">Type:</string>
+    <string name="overall_rating">Overall Rating:</string>
+
+    <string name="address_1">Address 1:</string>
+    <string name="address_2">Address 2:</string>
+    <string name="city">City:</string>
+    <string name="county">County:</string>
+    <string name="description">Description:</string>
+    <string name="directions">Directions:</string>
+
+    <string name="non_disclosure">N/A</string>
+</resources>

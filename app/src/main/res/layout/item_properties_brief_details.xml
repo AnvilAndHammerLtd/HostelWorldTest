@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/generic_size_medium">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/generic_size_small"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/item_properties_brief_details_default_bg" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/generic_size_small"
+        style="@style/GradientBackground.White" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_small">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/Text.Bold.Item_properties_brief_details.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name" />
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/Text.Bold.Item_properties_brief_details.Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="The Hostel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/Text.Bold.Item_properties_brief_details.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/type" />
+
+            <TextView
+                android:id="@+id/type"
+                style="@style/Text.Bold.Item_properties_brief_details.Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="HOSTEL" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/Text.Bold.Item_properties_brief_details.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/overall_rating" />
+
+            <TextView
+                android:id="@+id/overall_rating"
+                style="@style/Text.Bold.Item_properties_brief_details.Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="7" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

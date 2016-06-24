@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/generic_size_medium"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/property_full_details_default_bg" />
+
+            <FrameLayout
+                style="@style/GradientBackground.White"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_small">
+
+            <TextView
+                style="@style/Text.Bold.Property_full_details.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name" />
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/Text.Bold.Property_full_details.Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="The Hostel" />
+
+
+            <TextView
+                style="@style/Text.Bold.Property_full_details.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/type" />
+
+            <TextView
+                android:id="@+id/type"
+                style="@style/Text.Bold.Property_full_details.Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="HOSTEL" />
+
+            <TextView
+                style="@style/Text.Bold.Property_full_details.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address_1" />
+
+            <TextView
+                android:id="@+id/address_1"
+                style="@style/Text.Bold.Property_full_details.Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Here" />
+
+            <TextView
+                style="@style/Text.Bold.Property_full_details.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address_2" />
+
+            <TextView
+                android:id="@+id/address_2"
+                style="@style/Text.Bold.Property_full_details.Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Somewhere" />
+
+            <TextView
+                style="@style/Text.Bold.Property_full_details.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/city" />
+
+            <TextView
+                android:id="@+id/city"
+                style="@style/Text.Bold.Property_full_details.Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="London" />
+
+            <TextView
+                style="@style/Text.Bold.Property_full_details.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/county" />
+
+            <TextView
+                android:id="@+id/county"
+                style="@style/Text.Bold.Property_full_details.Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Hillington" />
+
+            <TextView
+                style="@style/Text.Bold.Property_full_details.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description" />
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/Text.Bold.Property_full_details.Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="blah blah blah" />
+
+            <TextView
+                style="@style/Text.Bold.Property_full_details.Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/directions" />
+
+            <TextView
+                android:id="@+id/directions"
+                style="@style/Text.Bold.Property_full_details.Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="here and there and then there and blah blah.... go the other way now" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
